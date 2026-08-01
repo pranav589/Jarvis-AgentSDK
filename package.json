@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Just A Rather Very Intelligent System - A developer-first, type-safe, transparent multi-agent SDK",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest",
-    "demo": "node dist/scratch/jarvis_demo.js"
+    "demo": "node dist/scratch/jarvis_demo.js",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "ai",
@@ -20,10 +22,28 @@
     "llm",
     "openai",
     "gemini",
-    "anthropic"
+    "anthropic",
+    "agent-framework",
+    "autonomous-agents",
+    "llm-sdk",
+    "tool-calling",
+    "function-calling"
   ],
   "author": "Tony Stark / Jarvis SDK Team",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranav589/Jarvis-AgentSDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pranav589/Jarvis-AgentSDK/issues"
+  },
+  "homepage": "https://github.com/pranav589/Jarvis-AgentSDK#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",
     "@google/genai": "^2.15.0",
@@ -37,5 +57,8 @@
     "@types/node": "^22.7.5",
     "typescript": "^5.6.3",
     "vitest": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

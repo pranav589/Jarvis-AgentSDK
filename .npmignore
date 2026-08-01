@@ -1,0 +1,23 @@
+# Test files
+tests/
+*.test.ts
+*.spec.ts
+
+# Development files
+scratch/
+node_modules/
+
+# Config files
+tsconfig.json
+.gitignore
+.env
+*.env.*
+
+# Build artifacts
+*.log
+
+# Database files
+*.db
+
+# OS files
+.DS_Store
