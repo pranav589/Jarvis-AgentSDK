@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "demo": "node dist/scratch/jarvis_demo.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "npm version patch -m \"Release %s\" && git push origin master --tags"
   },
   "keywords": [
     "ai",
@@ -33,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pranav589/Jarvis-AgentSDK.git"
+    "url": "git+https://github.com/pranav589/Jarvis-AgentSDK.git"
   },
   "bugs": {
     "url": "https://github.com/pranav589/Jarvis-AgentSDK/issues"

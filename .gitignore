@@ -5,3 +5,21 @@ dist/
 *.log
 .DS_Store
 /scratch
+
+# NPM
+.npm
+.npmrc
+package-lock.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# GitHub (keep workflows)
+.github/
+!.github/workflows/
