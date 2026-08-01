@@ -1,6 +1,6 @@
 {
   "name": "jarvis-agent-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just A Rather Very Intelligent System - A developer-first, type-safe, transparent multi-agent SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
