@@ -53,25 +53,7 @@ Existing frameworks (e.g., LangChain, CrewAI) wrap the agent loop inside complex
 npm install jarvis-agent-sdk
 ```
 
-### Peer Dependencies
-The SDK requires the following peer dependencies based on your provider choices:
-
-```bash
-# For OpenAI
-npm install openai
-
-# For Anthropic Claude
-npm install @anthropic-ai/sdk
-
-# For Google Gemini
-npm install @google/genai
-
-# For SQLite memory storage
-npm install better-sqlite3
-
-# For Zod schemas (required)
-npm install zod
-```
+All required dependencies (OpenAI, Anthropic, Gemini, SQLite, Zod) are installed automatically.
 
 ---
 
